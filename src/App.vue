@@ -6,7 +6,7 @@
           v-for="item in menuItems"
           :key="item.title"
           :to="item.link">
-          <v-list-tile-action>
+          <v-list-tile-action> 
             <v-icon>{{ item.icon }}</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>{{ item.title }}</v-list-tile-content>
